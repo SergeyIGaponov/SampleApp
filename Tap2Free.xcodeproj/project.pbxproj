@@ -1,0 +1,1221 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		140B65BA9F6CE56E0AC55CEB /* Pods_Tap2Free.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14591F54F3E115C612A4B257 /* Pods_Tap2Free.framework */; };
+		3617409322A6BBC5006EA98D /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3617409222A6BBC5006EA98D /* StoreKit.framework */; };
+		3617409522A7A5C2006EA98D /* ServersListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3617409422A7A5C2006EA98D /* ServersListViewController.swift */; };
+		3617409722A7E281006EA98D /* ChangeServerListDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3617409622A7E281006EA98D /* ChangeServerListDelegate.swift */; };
+		36210E7122ABDC6B00882B75 /* BanerTryProViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36210E7022ABDC6B00882B75 /* BanerTryProViewController.swift */; };
+		36210E7322AC16B000882B75 /* RatingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36210E7222AC16B000882B75 /* RatingViewController.swift */; };
+		36233A752295740B00498E8D /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36233A742295740B00498E8D /* NetworkExtension.framework */; };
+		36233A76229574C900498E8D /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36233A742295740B00498E8D /* NetworkExtension.framework */; };
+		362479F422AAB98700E41396 /* ADViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362479F322AAB98700E41396 /* ADViewController.swift */; };
+		362B63F32361CBEC004E6AE0 /* ViewControllerDismiss.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362B63F22361CBEC004E6AE0 /* ViewControllerDismiss.swift */; };
+		3648ECE3235F1F980050A70F /* ErrorRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3648ECE2235F1F980050A70F /* ErrorRequests.swift */; };
+		3648ECE5235F23600050A70F /* ConfigData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3648ECE4235F23600050A70F /* ConfigData.swift */; };
+		3648ECE7235F24F60050A70F /* ErrorVPNApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3648ECE6235F24F60050A70F /* ErrorVPNApi.swift */; };
+		3648ECED235F45A10050A70F /* LocationServerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3648ECEC235F45A10050A70F /* LocationServerViewModel.swift */; };
+		3648ECEF235F45BF0050A70F /* LocationServerViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3648ECEE235F45BF0050A70F /* LocationServerViewModelType.swift */; };
+		3648ECF1235F468C0050A70F /* LocationServerCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3648ECF0235F468C0050A70F /* LocationServerCellViewModel.swift */; };
+		3648ECF3235F46A20050A70F /* LocationServerCellViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3648ECF2235F46A20050A70F /* LocationServerCellViewModelType.swift */; };
+		3649A61B23632E790025329D /* SettingsLocationListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3649A61A23632E790025329D /* SettingsLocationListViewModel.swift */; };
+		3649A61E23632E920025329D /* SettingsLocationListViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3649A61D23632E920025329D /* SettingsLocationListViewType.swift */; };
+		367F62292269A1D60060BF0A /* Tap2FreeServerAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367F62282269A1D60060BF0A /* Tap2FreeServerAPI.swift */; };
+		367F622B2269A27D0060BF0A /* BaseUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367F622A2269A27D0060BF0A /* BaseUrl.swift */; };
+		367F622D2269A4230060BF0A /* Tap2FreeAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367F622C2269A4230060BF0A /* Tap2FreeAPI.swift */; };
+		367F622F2269A44B0060BF0A /* ListServers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367F622E2269A44B0060BF0A /* ListServers.swift */; };
+		367F62312269A9820060BF0A /* Titles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367F62302269A9820060BF0A /* Titles.swift */; };
+		367F62332269AF260060BF0A /* DataSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367F62322269AF260060BF0A /* DataSettings.swift */; };
+		367F62352269AF5A0060BF0A /* BaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367F62342269AF5A0060BF0A /* BaseResponse.swift */; };
+		367F62372269B5600060BF0A /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367F62362269B5600060BF0A /* Config.swift */; };
+		368307AD23621A4F00898C6B /* LocationServerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368307AC23621A4F00898C6B /* LocationServerDelegate.swift */; };
+		36844B182276D67600FB52EE /* UDID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36844B172276D67600FB52EE /* UDID.swift */; };
+		3685BC272361BC3200AB989B /* MenuItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3685BC262361BC3200AB989B /* MenuItems.swift */; };
+		368FF25A22787D2500FAD65A /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368FF25922787D2500FAD65A /* SettingsViewController.swift */; };
+		368FF25C2278848800FAD65A /* SettingsLocationListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368FF25B2278848800FAD65A /* SettingsLocationListViewController.swift */; };
+		368FF25E2278A6F600FAD65A /* StatusServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368FF25D2278A6F600FAD65A /* StatusServer.swift */; };
+		36A3EB6222801C6300A11FD9 /* IAPProducts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A3EB6122801C6300A11FD9 /* IAPProducts.swift */; };
+		36A3EB6522801D8B00A11FD9 /* IAPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A3EB6422801D8B00A11FD9 /* IAPManager.swift */; };
+		36A3EB68228040B700A11FD9 /* AppleIncRootCertificate.cer in Resources */ = {isa = PBXBuildFile; fileRef = 36A3EB67228040B700A11FD9 /* AppleIncRootCertificate.cer */; };
+		36A3EB6D228041C700A11FD9 /* SwiftyLocalReceiptValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A3EB6B228041C700A11FD9 /* SwiftyLocalReceiptValidator.swift */; };
+		36A3EB6E228041C700A11FD9 /* pkcs7_union_accessors.c in Sources */ = {isa = PBXBuildFile; fileRef = 36A3EB6C228041C700A11FD9 /* pkcs7_union_accessors.c */; };
+		36A3EB7022807A8B00A11FD9 /* NotificationKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A3EB6F22807A8B00A11FD9 /* NotificationKey.swift */; };
+		36A94DA62267172800883C4B /* ControllerID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A94DA52267172800883C4B /* ControllerID.swift */; };
+		36A94DA8226719C100883C4B /* StoryboardName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A94DA7226719C000883C4B /* StoryboardName.swift */; };
+		36A94DAA22671A7F00883C4B /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A94DA922671A7F00883C4B /* SideMenuViewController.swift */; };
+		36A94DAF2267321E00883C4B /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A94DAE2267321E00883C4B /* DesignableView.swift */; };
+		36A94DB1226736A700883C4B /* DesignableUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A94DB0226736A700883C4B /* DesignableUIButton.swift */; };
+		36A94DB622676F1000883C4B /* XibsName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A94DB522676F1000883C4B /* XibsName.swift */; };
+		36A94DB82267B9BA00883C4B /* LocationServerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A94DB72267B9BA00883C4B /* LocationServerTableViewCell.swift */; };
+		36A94DBA2267BA1A00883C4B /* LocationServerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A94DB92267BA1A00883C4B /* LocationServerViewController.swift */; };
+		36A94DBC2267BA2F00883C4B /* CellID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A94DBB2267BA2F00883C4B /* CellID.swift */; };
+		36A94DBE2267BB9700883C4B /* DesignableUIViewCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A94DBD2267BB9700883C4B /* DesignableUIViewCorners.swift */; };
+		36A94DC02267BC0400883C4B /* ExtensionsUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A94DBF2267BC0400883C4B /* ExtensionsUI.swift */; };
+		36A94DC32267BFF100883C4B /* SegueID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A94DC22267BFF100883C4B /* SegueID.swift */; };
+		36B5DFA2235F5DD00027250E /* DataSettingsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36B5DFA1235F5DD00027250E /* DataSettingsApp.swift */; };
+		36E4C0AF235F124200DA41BE /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E4C0AE235F124200DA41BE /* HomeViewModel.swift */; };
+		36E4C0B1235F125300DA41BE /* HomeViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E4C0B0235F125300DA41BE /* HomeViewModelType.swift */; };
+		36E4C0B5235F16F700DA41BE /* ServerList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E4C0B4235F16F700DA41BE /* ServerList.swift */; };
+		36E4C0B7235F18BA00DA41BE /* OverlaysVariable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E4C0B6235F18BA00DA41BE /* OverlaysVariable.swift */; };
+		36E6459022AC5E1200F3620B /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E6458F22AC5E1200F3620B /* BaseViewController.swift */; };
+		36E6459222AC5F9900F3620B /* Rating.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36E6459122AC5F9900F3620B /* Rating.xib */; };
+		36E9C04C226B903F002CB211 /* PacketTunnelProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E9C04B226B903F002CB211 /* PacketTunnelProvider.swift */; };
+		36E9C051226B903F002CB211 /* Tap2FreeNetworkExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 36E9C049226B903F002CB211 /* Tap2FreeNetworkExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		36F4F57D2268A16200DF818B /* RoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F4F57C2268A16200DF818B /* RoundedView.swift */; };
+		36F4F57F2268AFAD00DF818B /* Subscibe.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36F4F57E2268AFAD00DF818B /* Subscibe.storyboard */; };
+		36FB7E4C2267051F00726B5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FB7E4B2267051F00726B5A /* AppDelegate.swift */; };
+		36FB7E4E2267051F00726B5A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FB7E4D2267051F00726B5A /* HomeViewController.swift */; };
+		36FB7E512267051F00726B5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36FB7E4F2267051F00726B5A /* Main.storyboard */; };
+		36FB7E532267052000726B5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36FB7E522267052000726B5A /* Assets.xcassets */; };
+		36FB7E562267052000726B5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36FB7E542267052000726B5A /* LaunchScreen.storyboard */; };
+		C0F0F0AA2EA177169EEFAC7D /* Pods_Tap2FreeNetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F3A31E6E13AF3BE4354BDA0 /* Pods_Tap2FreeNetworkExtension.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		36E9C04F226B903F002CB211 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36FB7E402267051F00726B5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36E9C048226B903F002CB211;
+			remoteInfo = Tap2FreeNetworkExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		36E9C055226B903F002CB211 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				36E9C051226B903F002CB211 /* Tap2FreeNetworkExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		14591F54F3E115C612A4B257 /* Pods_Tap2Free.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tap2Free.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F3A31E6E13AF3BE4354BDA0 /* Pods_Tap2FreeNetworkExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tap2FreeNetworkExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3617409222A6BBC5006EA98D /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		3617409422A7A5C2006EA98D /* ServersListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServersListViewController.swift; sourceTree = "<group>"; };
+		3617409622A7E281006EA98D /* ChangeServerListDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeServerListDelegate.swift; sourceTree = "<group>"; };
+		36210E7022ABDC6B00882B75 /* BanerTryProViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BanerTryProViewController.swift; sourceTree = "<group>"; };
+		36210E7222AC16B000882B75 /* RatingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingViewController.swift; sourceTree = "<group>"; };
+		36233A742295740B00498E8D /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
+		362479F322AAB98700E41396 /* ADViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADViewController.swift; sourceTree = "<group>"; };
+		362B63F22361CBEC004E6AE0 /* ViewControllerDismiss.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerDismiss.swift; sourceTree = "<group>"; };
+		3648ECE2235F1F980050A70F /* ErrorRequests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorRequests.swift; sourceTree = "<group>"; };
+		3648ECE4235F23600050A70F /* ConfigData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigData.swift; sourceTree = "<group>"; };
+		3648ECE6235F24F60050A70F /* ErrorVPNApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorVPNApi.swift; sourceTree = "<group>"; };
+		3648ECEC235F45A10050A70F /* LocationServerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationServerViewModel.swift; sourceTree = "<group>"; };
+		3648ECEE235F45BF0050A70F /* LocationServerViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationServerViewModelType.swift; sourceTree = "<group>"; };
+		3648ECF0235F468C0050A70F /* LocationServerCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationServerCellViewModel.swift; sourceTree = "<group>"; };
+		3648ECF2235F46A20050A70F /* LocationServerCellViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationServerCellViewModelType.swift; sourceTree = "<group>"; };
+		3649A61A23632E790025329D /* SettingsLocationListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsLocationListViewModel.swift; sourceTree = "<group>"; };
+		3649A61D23632E920025329D /* SettingsLocationListViewType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsLocationListViewType.swift; sourceTree = "<group>"; };
+		367F62282269A1D60060BF0A /* Tap2FreeServerAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tap2FreeServerAPI.swift; sourceTree = "<group>"; };
+		367F622A2269A27D0060BF0A /* BaseUrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseUrl.swift; sourceTree = "<group>"; };
+		367F622C2269A4230060BF0A /* Tap2FreeAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tap2FreeAPI.swift; sourceTree = "<group>"; };
+		367F622E2269A44B0060BF0A /* ListServers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListServers.swift; sourceTree = "<group>"; };
+		367F62302269A9820060BF0A /* Titles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Titles.swift; sourceTree = "<group>"; };
+		367F62322269AF260060BF0A /* DataSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSettings.swift; sourceTree = "<group>"; };
+		367F62342269AF5A0060BF0A /* BaseResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseResponse.swift; sourceTree = "<group>"; };
+		367F62362269B5600060BF0A /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		368307AC23621A4F00898C6B /* LocationServerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationServerDelegate.swift; sourceTree = "<group>"; };
+		36844B172276D67600FB52EE /* UDID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UDID.swift; sourceTree = "<group>"; };
+		3685BC262361BC3200AB989B /* MenuItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItems.swift; sourceTree = "<group>"; };
+		368FF25922787D2500FAD65A /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		368FF25B2278848800FAD65A /* SettingsLocationListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsLocationListViewController.swift; sourceTree = "<group>"; };
+		368FF25D2278A6F600FAD65A /* StatusServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusServer.swift; sourceTree = "<group>"; };
+		36A3EB6122801C6300A11FD9 /* IAPProducts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAPProducts.swift; sourceTree = "<group>"; };
+		36A3EB6422801D8B00A11FD9 /* IAPManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAPManager.swift; sourceTree = "<group>"; };
+		36A3EB67228040B700A11FD9 /* AppleIncRootCertificate.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = AppleIncRootCertificate.cer; sourceTree = "<group>"; };
+		36A3EB69228041C600A11FD9 /* Tap2Free-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tap2Free-Bridging-Header.h"; sourceTree = "<group>"; };
+		36A3EB6A228041C700A11FD9 /* pkcs7_union_accessors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pkcs7_union_accessors.h; sourceTree = "<group>"; };
+		36A3EB6B228041C700A11FD9 /* SwiftyLocalReceiptValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyLocalReceiptValidator.swift; sourceTree = "<group>"; };
+		36A3EB6C228041C700A11FD9 /* pkcs7_union_accessors.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pkcs7_union_accessors.c; sourceTree = "<group>"; };
+		36A3EB6F22807A8B00A11FD9 /* NotificationKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationKey.swift; sourceTree = "<group>"; };
+		36A94DA52267172800883C4B /* ControllerID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerID.swift; sourceTree = "<group>"; };
+		36A94DA7226719C000883C4B /* StoryboardName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardName.swift; sourceTree = "<group>"; };
+		36A94DA922671A7F00883C4B /* SideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
+		36A94DAE2267321E00883C4B /* DesignableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
+		36A94DB0226736A700883C4B /* DesignableUIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableUIButton.swift; sourceTree = "<group>"; };
+		36A94DB522676F1000883C4B /* XibsName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XibsName.swift; sourceTree = "<group>"; };
+		36A94DB72267B9BA00883C4B /* LocationServerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationServerTableViewCell.swift; sourceTree = "<group>"; };
+		36A94DB92267BA1A00883C4B /* LocationServerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationServerViewController.swift; sourceTree = "<group>"; };
+		36A94DBB2267BA2F00883C4B /* CellID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellID.swift; sourceTree = "<group>"; };
+		36A94DBD2267BB9700883C4B /* DesignableUIViewCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableUIViewCorners.swift; sourceTree = "<group>"; };
+		36A94DBF2267BC0400883C4B /* ExtensionsUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionsUI.swift; sourceTree = "<group>"; };
+		36A94DC22267BFF100883C4B /* SegueID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegueID.swift; sourceTree = "<group>"; };
+		36B5DFA1235F5DD00027250E /* DataSettingsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSettingsApp.swift; sourceTree = "<group>"; };
+		36E4C0AE235F124200DA41BE /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		36E4C0B0235F125300DA41BE /* HomeViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModelType.swift; sourceTree = "<group>"; };
+		36E4C0B4235F16F700DA41BE /* ServerList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerList.swift; sourceTree = "<group>"; };
+		36E4C0B6235F18BA00DA41BE /* OverlaysVariable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlaysVariable.swift; sourceTree = "<group>"; };
+		36E6458F22AC5E1200F3620B /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		36E6459122AC5F9900F3620B /* Rating.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Rating.xib; sourceTree = "<group>"; };
+		36E9C049226B903F002CB211 /* Tap2FreeNetworkExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Tap2FreeNetworkExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		36E9C04B226B903F002CB211 /* PacketTunnelProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacketTunnelProvider.swift; sourceTree = "<group>"; };
+		36E9C04D226B903F002CB211 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36E9C04E226B903F002CB211 /* Tap2FreeNetworkExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Tap2FreeNetworkExtension.entitlements; sourceTree = "<group>"; };
+		36E9C057226B90B2002CB211 /* Tap2Free.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Tap2Free.entitlements; sourceTree = "<group>"; };
+		36F4F57C2268A16200DF818B /* RoundedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedView.swift; sourceTree = "<group>"; };
+		36F4F57E2268AFAD00DF818B /* Subscibe.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Subscibe.storyboard; sourceTree = "<group>"; };
+		36FB7E482267051F00726B5A /* Tap2Free.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tap2Free.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		36FB7E4B2267051F00726B5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		36FB7E4D2267051F00726B5A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		36FB7E502267051F00726B5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		36FB7E522267052000726B5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		36FB7E552267052000726B5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		36FB7E572267052000726B5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B37A3F0072E8F3D6B7847DA /* Pods-Tap2FreeNetworkExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tap2FreeNetworkExtension.debug.xcconfig"; path = "Target Support Files/Pods-Tap2FreeNetworkExtension/Pods-Tap2FreeNetworkExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		7829F0A9FA758412F7EA4912 /* Pods-Tap2FreeNetworkExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tap2FreeNetworkExtension.release.xcconfig"; path = "Target Support Files/Pods-Tap2FreeNetworkExtension/Pods-Tap2FreeNetworkExtension.release.xcconfig"; sourceTree = "<group>"; };
+		7916FAC3865239541100C59B /* Pods-Tap2Free.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tap2Free.debug.xcconfig"; path = "Target Support Files/Pods-Tap2Free/Pods-Tap2Free.debug.xcconfig"; sourceTree = "<group>"; };
+		80386E5478983834BE6125C0 /* Pods-Tap2Free.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tap2Free.release.xcconfig"; path = "Target Support Files/Pods-Tap2Free/Pods-Tap2Free.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36E9C046226B903F002CB211 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0F0F0AA2EA177169EEFAC7D /* Pods_Tap2FreeNetworkExtension.framework in Frameworks */,
+				36233A752295740B00498E8D /* NetworkExtension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36FB7E452267051F00726B5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3617409322A6BBC5006EA98D /* StoreKit.framework in Frameworks */,
+				140B65BA9F6CE56E0AC55CEB /* Pods_Tap2Free.framework in Frameworks */,
+				36233A76229574C900498E8D /* NetworkExtension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3617409822A7E2A6006EA98D /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				3617409622A7E281006EA98D /* ChangeServerListDelegate.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		362B63F12361CB79004E6AE0 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				362B63F22361CBEC004E6AE0 /* ViewControllerDismiss.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		362B63F42362023F004E6AE0 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				3649A61C23632E880025329D /* Protocol */,
+				3649A61923632E660025329D /* ViewModel */,
+				362B63F523620247004E6AE0 /* View */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		362B63F523620247004E6AE0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				368FF25922787D2500FAD65A /* SettingsViewController.swift */,
+				368FF25B2278848800FAD65A /* SettingsLocationListViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		362B63F623620258004E6AE0 /* ServersList */ = {
+			isa = PBXGroup;
+			children = (
+				362B63F723620261004E6AE0 /* View */,
+			);
+			path = ServersList;
+			sourceTree = "<group>";
+		};
+		362B63F723620261004E6AE0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3617409422A7A5C2006EA98D /* ServersListViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3648ECE8235F45620050A70F /* LocationServer */ = {
+			isa = PBXGroup;
+			children = (
+				3648ECEB235F45890050A70F /* Protocol */,
+				3648ECEA235F45770050A70F /* ViewModel */,
+				3648ECE9235F456E0050A70F /* View */,
+			);
+			path = LocationServer;
+			sourceTree = "<group>";
+		};
+		3648ECE9235F456E0050A70F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				36A94DB92267BA1A00883C4B /* LocationServerViewController.swift */,
+				36A94DB72267B9BA00883C4B /* LocationServerTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3648ECEA235F45770050A70F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3648ECEC235F45A10050A70F /* LocationServerViewModel.swift */,
+				3648ECF0235F468C0050A70F /* LocationServerCellViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3648ECEB235F45890050A70F /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				3648ECEE235F45BF0050A70F /* LocationServerViewModelType.swift */,
+				3648ECF2235F46A20050A70F /* LocationServerCellViewModelType.swift */,
+				368307AC23621A4F00898C6B /* LocationServerDelegate.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		3649A61923632E660025329D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3649A61A23632E790025329D /* SettingsLocationListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3649A61C23632E880025329D /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				3649A61D23632E920025329D /* SettingsLocationListViewType.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		364F19E72362071E002D7377 /* AD */ = {
+			isa = PBXGroup;
+			children = (
+				362479F322AAB98700E41396 /* ADViewController.swift */,
+			);
+			path = AD;
+			sourceTree = "<group>";
+		};
+		3685BC242361BC1900AB989B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				36A94DA922671A7F00883C4B /* SideMenuViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3685BC252361BC2200AB989B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3685BC262361BC3200AB989B /* MenuItems.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		36A3EB6322801D5900A11FD9 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				36A3EB6422801D8B00A11FD9 /* IAPManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		36A3EB662280409E00A11FD9 /* Validation */ = {
+			isa = PBXGroup;
+			children = (
+				36A3EB6C228041C700A11FD9 /* pkcs7_union_accessors.c */,
+				36A3EB6A228041C700A11FD9 /* pkcs7_union_accessors.h */,
+				36A3EB6B228041C700A11FD9 /* SwiftyLocalReceiptValidator.swift */,
+				36A3EB69228041C600A11FD9 /* Tap2Free-Bridging-Header.h */,
+			);
+			path = Validation;
+			sourceTree = "<group>";
+		};
+		36A94D9C22670C9500883C4B /* Resourse */ = {
+			isa = PBXGroup;
+			children = (
+				36F4F57722689A7600DF818B /* Fonts */,
+				36FB7E522267052000726B5A /* Assets.xcassets */,
+				36FB7E572267052000726B5A /* Info.plist */,
+				36A3EB67228040B700A11FD9 /* AppleIncRootCertificate.cer */,
+			);
+			path = Resourse;
+			sourceTree = "<group>";
+		};
+		36A94D9D22670CCF00883C4B /* App */ = {
+			isa = PBXGroup;
+			children = (
+				36FB7E4B2267051F00726B5A /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		36A94D9E22670CE500883C4B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				367F622E2269A44B0060BF0A /* ListServers.swift */,
+				367F62322269AF260060BF0A /* DataSettings.swift */,
+				367F62342269AF5A0060BF0A /* BaseResponse.swift */,
+				367F62362269B5600060BF0A /* Config.swift */,
+				36A3EB6122801C6300A11FD9 /* IAPProducts.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		36A94D9F22670CF800883C4B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				36A94DB222676ED000883C4B /* Xibs */,
+				36A94DAD226731DA00883C4B /* Designables */,
+				36A94DA22267140A00883C4B /* Storyboards */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		36A94DA022670D0700883C4B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				36E4C0B2235F16C900DA41BE /* Singltones */,
+				36F4F5802268AFDD00DF818B /* Subscibe */,
+				36A94DAC22672D3100883C4B /* Main */,
+				36210E7222AC16B000882B75 /* RatingViewController.swift */,
+				36A94DAB226727CC00883C4B /* SideMenu */,
+				36E6458F22AC5E1200F3620B /* BaseViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		36A94DA22267140A00883C4B /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				36FB7E4F2267051F00726B5A /* Main.storyboard */,
+				36FB7E542267052000726B5A /* LaunchScreen.storyboard */,
+				36F4F57E2268AFAD00DF818B /* Subscibe.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		36A94DA3226716F200883C4B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				36A94DA4226716FD00883C4B /* Enums */,
+				36A94DC12267BC0B00883C4B /* Extensions */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		36A94DA4226716FD00883C4B /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				36A94DA52267172800883C4B /* ControllerID.swift */,
+				36A94DA7226719C000883C4B /* StoryboardName.swift */,
+				36A94DB522676F1000883C4B /* XibsName.swift */,
+				36A94DBB2267BA2F00883C4B /* CellID.swift */,
+				36A94DC22267BFF100883C4B /* SegueID.swift */,
+				367F622A2269A27D0060BF0A /* BaseUrl.swift */,
+				367F62302269A9820060BF0A /* Titles.swift */,
+				36844B172276D67600FB52EE /* UDID.swift */,
+				368FF25D2278A6F600FAD65A /* StatusServer.swift */,
+				36A3EB6F22807A8B00A11FD9 /* NotificationKey.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		36A94DAB226727CC00883C4B /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				3685BC252361BC2200AB989B /* Models */,
+				3685BC242361BC1900AB989B /* View */,
+			);
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		36A94DAC22672D3100883C4B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				362B63F12361CB79004E6AE0 /* Protocol */,
+				36E4C0A8235F0BC700DA41BE /* Home */,
+				362B63F623620258004E6AE0 /* ServersList */,
+				362B63F42362023F004E6AE0 /* Settings */,
+				3617409822A7E2A6006EA98D /* Protocols */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		36A94DAD226731DA00883C4B /* Designables */ = {
+			isa = PBXGroup;
+			children = (
+				36A94DAE2267321E00883C4B /* DesignableView.swift */,
+				36A94DB0226736A700883C4B /* DesignableUIButton.swift */,
+				36A94DBD2267BB9700883C4B /* DesignableUIViewCorners.swift */,
+				36F4F57C2268A16200DF818B /* RoundedView.swift */,
+			);
+			path = Designables;
+			sourceTree = "<group>";
+		};
+		36A94DB222676ED000883C4B /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				36E6459122AC5F9900F3620B /* Rating.xib */,
+			);
+			path = Xibs;
+			sourceTree = "<group>";
+		};
+		36A94DC12267BC0B00883C4B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				36A94DBF2267BC0400883C4B /* ExtensionsUI.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		36E4C0A8235F0BC700DA41BE /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				3648ECE8235F45620050A70F /* LocationServer */,
+				36E4C0AC235F121700DA41BE /* Model */,
+				36E4C0AB235F120500DA41BE /* Protocol */,
+				36E4C0AA235F0BDE00DA41BE /* ViewModel */,
+				36E4C0A9235F0BD600DA41BE /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		36E4C0A9235F0BD600DA41BE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				36FB7E4D2267051F00726B5A /* HomeViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		36E4C0AA235F0BDE00DA41BE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				36E4C0AE235F124200DA41BE /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		36E4C0AB235F120500DA41BE /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				36E4C0B0235F125300DA41BE /* HomeViewModelType.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		36E4C0AC235F121700DA41BE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		36E4C0B2235F16C900DA41BE /* Singltones */ = {
+			isa = PBXGroup;
+			children = (
+				36E4C0B4235F16F700DA41BE /* ServerList.swift */,
+				3648ECE4235F23600050A70F /* ConfigData.swift */,
+				36B5DFA1235F5DD00027250E /* DataSettingsApp.swift */,
+				36E4C0B6235F18BA00DA41BE /* OverlaysVariable.swift */,
+				3648ECE2235F1F980050A70F /* ErrorRequests.swift */,
+			);
+			path = Singltones;
+			sourceTree = "<group>";
+		};
+		36E9C04A226B903F002CB211 /* Tap2FreeNetworkExtension */ = {
+			isa = PBXGroup;
+			children = (
+				36E9C04B226B903F002CB211 /* PacketTunnelProvider.swift */,
+				36E9C04D226B903F002CB211 /* Info.plist */,
+				36E9C04E226B903F002CB211 /* Tap2FreeNetworkExtension.entitlements */,
+			);
+			path = Tap2FreeNetworkExtension;
+			sourceTree = "<group>";
+		};
+		36F4F57722689A7600DF818B /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		36F4F5802268AFDD00DF818B /* Subscibe */ = {
+			isa = PBXGroup;
+			children = (
+				364F19E72362071E002D7377 /* AD */,
+				36210E7022ABDC6B00882B75 /* BanerTryProViewController.swift */,
+			);
+			path = Subscibe;
+			sourceTree = "<group>";
+		};
+		36F4F5822269A11400DF818B /* API */ = {
+			isa = PBXGroup;
+			children = (
+				367F62282269A1D60060BF0A /* Tap2FreeServerAPI.swift */,
+				367F622C2269A4230060BF0A /* Tap2FreeAPI.swift */,
+				3648ECE6235F24F60050A70F /* ErrorVPNApi.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		36FB7E3F2267051F00726B5A = {
+			isa = PBXGroup;
+			children = (
+				36FB7E4A2267051F00726B5A /* Tap2Free */,
+				36E9C04A226B903F002CB211 /* Tap2FreeNetworkExtension */,
+				36FB7E492267051F00726B5A /* Products */,
+				77D275B890F18FED9A998E8D /* Pods */,
+				73850CFBF1A26715E0669A6E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		36FB7E492267051F00726B5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36FB7E482267051F00726B5A /* Tap2Free.app */,
+				36E9C049226B903F002CB211 /* Tap2FreeNetworkExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36FB7E4A2267051F00726B5A /* Tap2Free */ = {
+			isa = PBXGroup;
+			children = (
+				36E9C057226B90B2002CB211 /* Tap2Free.entitlements */,
+				36A3EB662280409E00A11FD9 /* Validation */,
+				36A3EB6322801D5900A11FD9 /* Managers */,
+				36F4F5822269A11400DF818B /* API */,
+				36A94D9D22670CCF00883C4B /* App */,
+				36A94D9C22670C9500883C4B /* Resourse */,
+				36A94D9E22670CE500883C4B /* Models */,
+				36A94D9F22670CF800883C4B /* Views */,
+				36A94DA022670D0700883C4B /* ViewControllers */,
+				36A94DA3226716F200883C4B /* Helpers */,
+			);
+			path = Tap2Free;
+			sourceTree = "<group>";
+		};
+		73850CFBF1A26715E0669A6E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3617409222A6BBC5006EA98D /* StoreKit.framework */,
+				36233A742295740B00498E8D /* NetworkExtension.framework */,
+				14591F54F3E115C612A4B257 /* Pods_Tap2Free.framework */,
+				2F3A31E6E13AF3BE4354BDA0 /* Pods_Tap2FreeNetworkExtension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		77D275B890F18FED9A998E8D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7916FAC3865239541100C59B /* Pods-Tap2Free.debug.xcconfig */,
+				80386E5478983834BE6125C0 /* Pods-Tap2Free.release.xcconfig */,
+				3B37A3F0072E8F3D6B7847DA /* Pods-Tap2FreeNetworkExtension.debug.xcconfig */,
+				7829F0A9FA758412F7EA4912 /* Pods-Tap2FreeNetworkExtension.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36E9C048226B903F002CB211 /* Tap2FreeNetworkExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36E9C052226B903F002CB211 /* Build configuration list for PBXNativeTarget "Tap2FreeNetworkExtension" */;
+			buildPhases = (
+				0EB669E5C63E79FFE1A95E71 /* [CP] Check Pods Manifest.lock */,
+				36E9C045226B903F002CB211 /* Sources */,
+				36E9C046226B903F002CB211 /* Frameworks */,
+				36E9C047226B903F002CB211 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tap2FreeNetworkExtension;
+			productName = Tap2FreeNetworkExtension;
+			productReference = 36E9C049226B903F002CB211 /* Tap2FreeNetworkExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		36FB7E472267051F00726B5A /* Tap2Free */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36FB7E5A2267052000726B5A /* Build configuration list for PBXNativeTarget "Tap2Free" */;
+			buildPhases = (
+				CF278B30C07524E014CA7ABA /* [CP] Check Pods Manifest.lock */,
+				E08BC99A609DCA702668560F /* [CP] Prepare Artifacts */,
+				36FB7E442267051F00726B5A /* Sources */,
+				36FB7E452267051F00726B5A /* Frameworks */,
+				36FB7E462267051F00726B5A /* Resources */,
+				565A8215DA7F6D8F7AFEAB58 /* [CP] Embed Pods Frameworks */,
+				36E9C055226B903F002CB211 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36E9C050226B903F002CB211 /* PBXTargetDependency */,
+			);
+			name = Tap2Free;
+			productName = Tap2Free;
+			productReference = 36FB7E482267051F00726B5A /* Tap2Free.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36FB7E402267051F00726B5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Sergey Nazarov";
+				TargetAttributes = {
+					36E9C048226B903F002CB211 = {
+						CreatedOnToolsVersion = 10.2;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+							com.apple.NetworkExtensions.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					36FB7E472267051F00726B5A = {
+						CreatedOnToolsVersion = 10.2;
+						LastSwiftMigration = 1020;
+						SystemCapabilities = {
+							com.apple.AccessWiFi = {
+								enabled = 0;
+							};
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.NetworkExtensions.iOS = {
+								enabled = 1;
+							};
+							com.apple.VPNLite = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 36FB7E432267051F00726B5A /* Build configuration list for PBXProject "Tap2Free" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 36FB7E3F2267051F00726B5A;
+			productRefGroup = 36FB7E492267051F00726B5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36FB7E472267051F00726B5A /* Tap2Free */,
+				36E9C048226B903F002CB211 /* Tap2FreeNetworkExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36E9C047226B903F002CB211 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36FB7E462267051F00726B5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36E6459222AC5F9900F3620B /* Rating.xib in Resources */,
+				36F4F57F2268AFAD00DF818B /* Subscibe.storyboard in Resources */,
+				36FB7E562267052000726B5A /* LaunchScreen.storyboard in Resources */,
+				36FB7E532267052000726B5A /* Assets.xcassets in Resources */,
+				36A3EB68228040B700A11FD9 /* AppleIncRootCertificate.cer in Resources */,
+				36FB7E512267051F00726B5A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0EB669E5C63E79FFE1A95E71 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tap2FreeNetworkExtension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		565A8215DA7F6D8F7AFEAB58 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tap2Free/Pods-Tap2Free-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tap2Free/Pods-Tap2Free-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tap2Free/Pods-Tap2Free-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF278B30C07524E014CA7ABA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tap2Free-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E08BC99A609DCA702668560F /* [CP] Prepare Artifacts */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tap2Free/Pods-Tap2Free-artifacts-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Prepare Artifacts";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tap2Free/Pods-Tap2Free-artifacts-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tap2Free/Pods-Tap2Free-artifacts.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36E9C045226B903F002CB211 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36E9C04C226B903F002CB211 /* PacketTunnelProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36FB7E442267051F00726B5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36E4C0B7235F18BA00DA41BE /* OverlaysVariable.swift in Sources */,
+				36A3EB7022807A8B00A11FD9 /* NotificationKey.swift in Sources */,
+				36A94DBC2267BA2F00883C4B /* CellID.swift in Sources */,
+				367F622F2269A44B0060BF0A /* ListServers.swift in Sources */,
+				36A3EB6222801C6300A11FD9 /* IAPProducts.swift in Sources */,
+				367F622B2269A27D0060BF0A /* BaseUrl.swift in Sources */,
+				367F62332269AF260060BF0A /* DataSettings.swift in Sources */,
+				36A94DB622676F1000883C4B /* XibsName.swift in Sources */,
+				36FB7E4E2267051F00726B5A /* HomeViewController.swift in Sources */,
+				367F62312269A9820060BF0A /* Titles.swift in Sources */,
+				36A94DBA2267BA1A00883C4B /* LocationServerViewController.swift in Sources */,
+				368FF25A22787D2500FAD65A /* SettingsViewController.swift in Sources */,
+				367F622D2269A4230060BF0A /* Tap2FreeAPI.swift in Sources */,
+				362B63F32361CBEC004E6AE0 /* ViewControllerDismiss.swift in Sources */,
+				36A3EB6D228041C700A11FD9 /* SwiftyLocalReceiptValidator.swift in Sources */,
+				367F62352269AF5A0060BF0A /* BaseResponse.swift in Sources */,
+				36A3EB6522801D8B00A11FD9 /* IAPManager.swift in Sources */,
+				36210E7322AC16B000882B75 /* RatingViewController.swift in Sources */,
+				36A94DB82267B9BA00883C4B /* LocationServerTableViewCell.swift in Sources */,
+				36844B182276D67600FB52EE /* UDID.swift in Sources */,
+				3648ECE5235F23600050A70F /* ConfigData.swift in Sources */,
+				36A94DA8226719C100883C4B /* StoryboardName.swift in Sources */,
+				368FF25E2278A6F600FAD65A /* StatusServer.swift in Sources */,
+				36210E7122ABDC6B00882B75 /* BanerTryProViewController.swift in Sources */,
+				3649A61E23632E920025329D /* SettingsLocationListViewType.swift in Sources */,
+				3649A61B23632E790025329D /* SettingsLocationListViewModel.swift in Sources */,
+				36A94DAF2267321E00883C4B /* DesignableView.swift in Sources */,
+				36FB7E4C2267051F00726B5A /* AppDelegate.swift in Sources */,
+				3648ECEF235F45BF0050A70F /* LocationServerViewModelType.swift in Sources */,
+				368FF25C2278848800FAD65A /* SettingsLocationListViewController.swift in Sources */,
+				36F4F57D2268A16200DF818B /* RoundedView.swift in Sources */,
+				36A94DC02267BC0400883C4B /* ExtensionsUI.swift in Sources */,
+				36E6459022AC5E1200F3620B /* BaseViewController.swift in Sources */,
+				3648ECF3235F46A20050A70F /* LocationServerCellViewModelType.swift in Sources */,
+				36A94DB1226736A700883C4B /* DesignableUIButton.swift in Sources */,
+				362479F422AAB98700E41396 /* ADViewController.swift in Sources */,
+				36A94DC32267BFF100883C4B /* SegueID.swift in Sources */,
+				3617409722A7E281006EA98D /* ChangeServerListDelegate.swift in Sources */,
+				3685BC272361BC3200AB989B /* MenuItems.swift in Sources */,
+				367F62372269B5600060BF0A /* Config.swift in Sources */,
+				3648ECE3235F1F980050A70F /* ErrorRequests.swift in Sources */,
+				367F62292269A1D60060BF0A /* Tap2FreeServerAPI.swift in Sources */,
+				36E4C0B1235F125300DA41BE /* HomeViewModelType.swift in Sources */,
+				36A3EB6E228041C700A11FD9 /* pkcs7_union_accessors.c in Sources */,
+				3648ECED235F45A10050A70F /* LocationServerViewModel.swift in Sources */,
+				3648ECF1235F468C0050A70F /* LocationServerCellViewModel.swift in Sources */,
+				36E4C0AF235F124200DA41BE /* HomeViewModel.swift in Sources */,
+				36A94DAA22671A7F00883C4B /* SideMenuViewController.swift in Sources */,
+				36B5DFA2235F5DD00027250E /* DataSettingsApp.swift in Sources */,
+				36A94DA62267172800883C4B /* ControllerID.swift in Sources */,
+				36A94DBE2267BB9700883C4B /* DesignableUIViewCorners.swift in Sources */,
+				3617409522A7A5C2006EA98D /* ServersListViewController.swift in Sources */,
+				3648ECE7235F24F60050A70F /* ErrorVPNApi.swift in Sources */,
+				368307AD23621A4F00898C6B /* LocationServerDelegate.swift in Sources */,
+				36E4C0B5235F16F700DA41BE /* ServerList.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		36E9C050226B903F002CB211 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36E9C048226B903F002CB211 /* Tap2FreeNetworkExtension */;
+			targetProxy = 36E9C04F226B903F002CB211 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		36FB7E4F2267051F00726B5A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36FB7E502267051F00726B5A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		36FB7E542267052000726B5A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36FB7E552267052000726B5A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		36E9C053226B903F002CB211 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B37A3F0072E8F3D6B7847DA /* Pods-Tap2FreeNetworkExtension.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Tap2FreeNetworkExtension/Tap2FreeNetworkExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 12;
+				DEVELOPMENT_TEAM = H6HYP4PFX6;
+				INFOPLIST_FILE = Tap2FreeNetworkExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.altcoin.Tap2Free.Tap2FreeNetworkExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		36E9C054226B903F002CB211 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7829F0A9FA758412F7EA4912 /* Pods-Tap2FreeNetworkExtension.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Tap2FreeNetworkExtension/Tap2FreeNetworkExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 12;
+				DEVELOPMENT_TEAM = H6HYP4PFX6;
+				INFOPLIST_FILE = Tap2FreeNetworkExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.altcoin.Tap2Free.Tap2FreeNetworkExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		36FB7E582267052000726B5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		36FB7E592267052000726B5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		36FB7E5B2267052000726B5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7916FAC3865239541100C59B /* Pods-Tap2Free.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Tap2Free/Tap2Free.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 12;
+				DEVELOPMENT_TEAM = H6HYP4PFX6;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "$(SRCROOT)/Tap2Free/Resourse/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alt.Tap2Free;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Tap2Free/Validation/Tap2Free-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		36FB7E5C2267052000726B5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80386E5478983834BE6125C0 /* Pods-Tap2Free.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Tap2Free/Tap2Free.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 12;
+				DEVELOPMENT_TEAM = H6HYP4PFX6;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "$(SRCROOT)/Tap2Free/Resourse/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alt.Tap2Free;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Tap2Free/Validation/Tap2Free-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36E9C052226B903F002CB211 /* Build configuration list for PBXNativeTarget "Tap2FreeNetworkExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36E9C053226B903F002CB211 /* Debug */,
+				36E9C054226B903F002CB211 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36FB7E432267051F00726B5A /* Build configuration list for PBXProject "Tap2Free" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36FB7E582267052000726B5A /* Debug */,
+				36FB7E592267052000726B5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36FB7E5A2267052000726B5A /* Build configuration list for PBXNativeTarget "Tap2Free" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36FB7E5B2267052000726B5A /* Debug */,
+				36FB7E5C2267052000726B5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36FB7E402267051F00726B5A /* Project object */;
+}
